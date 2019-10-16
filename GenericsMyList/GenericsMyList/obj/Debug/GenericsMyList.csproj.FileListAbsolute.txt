@@ -1,0 +1,6 @@
+D:\Work\ITVDN\GenericsMyList\GenericsMyList\bin\Debug\GenericsMyList.exe.config
+D:\Work\ITVDN\GenericsMyList\GenericsMyList\bin\Debug\GenericsMyList.exe
+D:\Work\ITVDN\GenericsMyList\GenericsMyList\bin\Debug\GenericsMyList.pdb
+D:\Work\ITVDN\GenericsMyList\GenericsMyList\obj\Debug\GenericsMyList.csprojAssemblyReference.cache
+D:\Work\ITVDN\GenericsMyList\GenericsMyList\obj\Debug\GenericsMyList.exe
+D:\Work\ITVDN\GenericsMyList\GenericsMyList\obj\Debug\GenericsMyList.pdb

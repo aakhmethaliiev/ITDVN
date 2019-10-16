@@ -1,0 +1,16 @@
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\GenericMyListTest.dll
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\GenericMyListTest.pdb
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\GenericsMyList.exe
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\GenericsMyList.pdb
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\GenericsMyList.exe.config
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\obj\Debug\GenericMyListTest.csprojAssemblyReference.cache
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\obj\Debug\GenericMyListTest.csproj.CopyComplete
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\obj\Debug\GenericMyListTest.dll
+D:\Work\ITVDN\GenericsMyList\GenericMyListTest\obj\Debug\GenericMyListTest.pdb
