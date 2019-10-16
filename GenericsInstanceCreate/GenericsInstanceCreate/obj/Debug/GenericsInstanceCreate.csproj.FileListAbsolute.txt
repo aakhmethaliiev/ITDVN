@@ -1,0 +1,6 @@
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreate\bin\Debug\GenericsInstanceCreate.exe.config
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreate\bin\Debug\GenericsInstanceCreate.exe
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreate\bin\Debug\GenericsInstanceCreate.pdb
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreate\obj\Debug\GenericsInstanceCreate.csprojAssemblyReference.cache
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreate\obj\Debug\GenericsInstanceCreate.exe
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreate\obj\Debug\GenericsInstanceCreate.pdb

@@ -1,0 +1,16 @@
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\GenericsInstanceCreateTest.dll
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\GenericsInstanceCreateTest.pdb
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\GenericsInstanceCreate.exe
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\GenericsInstanceCreate.pdb
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\GenericsInstanceCreate.exe.config
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\obj\Debug\GenericsInstanceCreateTest.csprojAssemblyReference.cache
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\obj\Debug\GenericsInstanceCreateTest.csproj.CopyComplete
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\obj\Debug\GenericsInstanceCreateTest.dll
+D:\Work\ITDVN\GenericsInstanceCreate\GenericsInstanceCreateTest\obj\Debug\GenericsInstanceCreateTest.pdb
