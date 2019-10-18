@@ -6,31 +6,33 @@ namespace EventCarImitation
     {
         private static void Main()
         {
-            var carControls = new CarControls();
-            carControls = EventSnap.GetCarControlsSnap(carControls);
+            var carControls = CarControlInit.GetCarControls();
             do
             {
-                var choose = Console.ReadKey();
-                switch (choose.Key)
-                {
-                    case ConsoleKey.DownArrow:
-                        carControls.OnBreakPush();
-                        break;
-                    case ConsoleKey.UpArrow:
-                        carControls.OnThrottlePush();
-                        break;
-                    case ConsoleKey.LeftArrow:
-                        carControls.OnSteerLeft();
-                        break;
-                    case ConsoleKey.RightArrow:
-                        carControls.OnSteerRight();
-                        break;
-                    case ConsoleKey.Escape:
-                        Environment.Exit(0);
-                        break;
-                }
-
+                ReadKeyCase(Console.ReadKey(), carControls);
             } while (true);
+        }
+
+        public static void ReadKeyCase(ConsoleKeyInfo consoleKey, CarControls carControls)
+        {
+            switch (consoleKey.Key)
+            {
+                case ConsoleKey.DownArrow:
+                    carControls.OnBreakPush();
+                    break;
+                case ConsoleKey.UpArrow:
+                    carControls.OnThrottlePush();
+                    break;
+                case ConsoleKey.LeftArrow:
+                    carControls.OnSteerLeft();
+                    break;
+                case ConsoleKey.RightArrow:
+                    carControls.OnSteerRight();
+                    break;
+                case ConsoleKey.Escape:
+                    Environment.Exit(0);
+                    break;
+            }
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace EventCarImitation
 {
-    internal class CarControls
+    public class CarControls
     {
         public event ThrottlePushDelegate ThrottlePush;
         public event BreakPushDelegate BreakPush;

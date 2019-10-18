@@ -1,7 +1,10 @@
 ﻿namespace EventCarImitation.Delegates
 {
-    internal delegate void ThrottlePushDelegate();
-    internal delegate void BreakPushDelegate();
-    internal delegate void SteeringWheelRightDelegate();
-    internal delegate void SteeringWheelLeftDelegate();
+    public delegate void ThrottlePushDelegate();
+
+    public delegate void BreakPushDelegate();
+
+    public delegate void SteeringWheelRightDelegate();
+
+    public delegate void SteeringWheelLeftDelegate();
 }

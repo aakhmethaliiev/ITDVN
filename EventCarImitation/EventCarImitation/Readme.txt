@@ -1,4 +1,4 @@
-﻿+ Create class Car:
+﻿+ Create class CarControls:
 	+ ThrottlePush()
 	+ BreakPush()
 	+ SteeringWheelRight()
