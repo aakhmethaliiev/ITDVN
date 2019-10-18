@@ -34,5 +34,14 @@ namespace GenericMyListTest
             var expectedList = new List<int> {10, 20};
             CollectionAssert.AreEqual(expectedList, _listOfInt);
         }
+
+        [TestMethod]
+        public void MyListExtensionTest()
+        {
+            _listOfInt.Add(10);
+            _listOfInt.Add(20);
+            var expectedList = new List<int> {10, 20};
+            CollectionAssert.AreEqual(expectedList, _listOfInt.GetArray());
+        }
     }
 }
