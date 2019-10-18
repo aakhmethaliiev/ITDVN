@@ -37,8 +37,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarControls.cs" />
+    <Compile Include="EventHandlers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Delegates\ThrottlePushDelegate.cs" />
+    <Compile Include="EventSnap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -46,5 +50,6 @@
   <ItemGroup>
     <Content Include="Readme.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

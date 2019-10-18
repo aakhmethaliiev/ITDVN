@@ -1,6 +1,6 @@
-﻿- Create class Car:
-	- ThrottlePush()
-	- BreakPush()
-	- SteeringWheelRight()
-	- SteeringWheelLeft()
-- Create UnitTests
+﻿+ Create class Car:
+	+ ThrottlePush()
+	+ BreakPush()
+	+ SteeringWheelRight()
+	+ SteeringWheelLeft()
++ Create UnitTests
