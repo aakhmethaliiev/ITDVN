@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{41EE5FE0-B08C-4C72-A4D0-DD0D020A047E}</ProjectGuid>
+    <ProjectGuid>{7786E9F2-066B-4877-B0A6-AB53216689A2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CarCollectionApplication</RootNamespace>
-    <AssemblyName>CarCollectionApplication</AssemblyName>
+    <RootNamespace>GenericsConstraints</RootNamespace>
+    <AssemblyName>GenericsConstraints</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -37,7 +37,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CarCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
