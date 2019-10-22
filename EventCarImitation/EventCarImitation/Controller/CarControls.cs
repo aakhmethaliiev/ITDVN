@@ -1,25 +1,25 @@
 ﻿using System;
 
-namespace EventCarImitation
+namespace EventCarImitation.Controller
 {
-    public static class EventHandlers
+    public class CarControls
     {
-        public static void ThrottlePushHandler()
+        public void ThrottlePush()
         {
             Console.WriteLine("The car goes faster.");
         }
-        
-        public static void BreakPushHandler()
+
+        public void BreakPush()
         {
             Console.WriteLine("The car goes slower.");
         }
-        
-        public static void SteeringWheelRightHandler()
+
+        public void SteeringWheelRight()
         {
             Console.WriteLine("The car goes to the right.");
         }
-        
-        public static void SteeringWheelLeftHandler()
+
+        public void SteeringWheelLeft()
         {
             Console.WriteLine("The car goes to the left.");
         }

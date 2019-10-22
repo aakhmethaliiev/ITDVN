@@ -37,13 +37,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CarControlInit.cs" />
-    <Compile Include="CarControls.cs" />
-    <Compile Include="EventHandlers.cs" />
+    <Compile Include="KeyEvents.cs" />
+    <Compile Include="Controller\CarControls.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Delegates\ThrottlePushDelegate.cs" />
-    <Compile Include="EventSnap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,5 +1,6 @@
 ﻿using System;
 using EventCarImitation;
+using EventCarImitation.Controller;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace EventCarImitationTests
@@ -12,7 +13,7 @@ namespace EventCarImitationTests
         [TestInitialize]
         public void Init()
         {
-            _target = CarControlInit.GetCarControls();
+            _target = new CarControls();
         }
 
         [TestMethod]
