@@ -4,7 +4,7 @@
     {
         private static void Main()
         {
-            var keyEvents = new KeyEvents();
+            var keyEvents = new CarEventController();
             do
             {
                 keyEvents.KeyHandler();

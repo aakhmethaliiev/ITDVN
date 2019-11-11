@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EventCarImitation.Controller
+namespace EventCarImitation
 {
     public class CarControls
     {

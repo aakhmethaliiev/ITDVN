@@ -17,13 +17,29 @@ namespace GenericMyListTest
         }
 
         [TestMethod]
-        public void AddTest()
+        public void Add_TwoNumbers_ShouldAddNumbers()
         {
+            //Arrange
+            //Act
             _listOfInt.Add(10);
             _listOfInt.Add(20);
             var expectedList = new List<int> {10, 20};
+            //Assert
             Assert.AreEqual(10,_listOfInt[0]);
             Assert.AreEqual(20,_listOfInt[1]);
+        }
+
+        [TestMethod]
+        public void Add_TwoNumbers_ShouldAddNumbersInRightOrder()
+        {
+            //Arrange
+            //Act
+            _listOfInt.Add(10);
+            _listOfInt.Add(20);
+            var expectedList = new List<int> { 10, 20 };
+            //Assert
+            Assert.AreEqual(10, _listOfInt[0]);
+            Assert.AreEqual(20, _listOfInt[1]);
         }
 
         [TestMethod]

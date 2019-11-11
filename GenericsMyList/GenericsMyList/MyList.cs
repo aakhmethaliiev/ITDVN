@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace GenericsMyList
 {
-    public class MyList<T> : ICollection
+    public class MyList<T> : ICollection 
     {
         private static readonly T[] EmptyArray = new T[0];
         private T[] _items;
@@ -24,7 +24,6 @@ namespace GenericsMyList
                     _items[i] = item;
                     continue;
                 }
-
                 _items[i] = tempArray[i];
             }
         }

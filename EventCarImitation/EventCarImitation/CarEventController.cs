@@ -1,16 +1,15 @@
 ﻿using System;
-using EventCarImitation.Controller;
 
 namespace EventCarImitation
 {
-    internal class KeyEvents
+    internal class CarEventController
     {
         private event Action ThrottlePush;
         private event Action BreakPush;
         private event Action SteerLeft;
         private event Action SteerRight;
 
-        public KeyEvents()
+        public CarEventController()
         {
             var carControls = new CarControls();
             ThrottlePush += carControls.ThrottlePush;
