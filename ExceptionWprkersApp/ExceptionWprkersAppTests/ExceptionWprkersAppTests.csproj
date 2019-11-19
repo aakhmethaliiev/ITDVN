@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExceptionWprkersApp\ExceptionWprkersApp.csproj">
+    <ProjectReference Include="..\ExceptionWprkersApp\ExceptionWorkersApp.csproj">
       <Project>{868cbccd-1cea-43e9-b9bd-b087835480ba}</Project>
-      <Name>ExceptionWprkersApp</Name>
+      <Name>ExceptionWorkersApp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
