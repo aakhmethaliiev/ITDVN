@@ -37,9 +37,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IWorkersService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserLogic.cs" />
+    <Compile Include="WorkersService.cs" />
     <Compile Include="Worker.cs" />
+    <Compile Include="YearEnteredException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

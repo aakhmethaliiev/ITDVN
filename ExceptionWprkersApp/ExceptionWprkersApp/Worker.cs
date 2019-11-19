@@ -1,34 +1,30 @@
-﻿namespace ExceptionWprkersApp
+﻿using System;
+
+namespace ExceptionWprkersApp
 {
     /// <summary> Model which contain information about worker. </summary>
     public class Worker
     {
-        /// <summary> Full name of worker. </summary>
-        private readonly string _fullName;
-
-        /// <summary> Position of worker. </summary>
-        private readonly string _position;
-
-        /// <summary> Year the worker came to work. </summary>
-        private readonly int _employmentYear;
-
         /// <summary>
         /// Default constructor.
         /// </summary>
         /// <param name="fullName"> Full name of worker. </param>
-        /// <param name="position"> _position </param>
-        /// <param name="employmentYear"> _employmentYear </param>
+        /// <param name="position"> Position of worker. </param>
+        /// <param name="employmentYear"> Year the worker came to work. </param>
         public Worker(string fullName, string position, int employmentYear)
         {
-            _fullName = fullName;
-            _position = position;
-            _employmentYear = employmentYear;
+            FullName = fullName;
+            Position = position;
+            EmploymentYear = employmentYear;
         }
 
-        public string FullName => _fullName;
+        /// <summary> Full name of worker. </summary>
+        public string FullName { get; }
 
-        public string Position => _position;
+        /// <summary> Position of worker. </summary>
+        public string Position { get; }
 
-        public int EmploymentYear => _employmentYear;
+        /// <summary> Year the worker came to work. </summary>
+        public int EmploymentYear { get; }
     }
 }
