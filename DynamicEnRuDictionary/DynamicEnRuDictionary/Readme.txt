@@ -1,0 +1,1 @@
+﻿- Create En-Ru dictionare using dynamic and anonym types.
