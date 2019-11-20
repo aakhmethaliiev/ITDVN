@@ -7,4 +7,4 @@
 	+ Model;
 	+ Name of purchaser;
 	+ Telephone number.
-- Display info about purchaser and full characteristics of the car using LINQ.
++ Display info about purchaser and full characteristics of the car using LINQ.

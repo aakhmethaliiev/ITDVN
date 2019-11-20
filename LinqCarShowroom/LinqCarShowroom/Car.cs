@@ -8,13 +8,13 @@
         /// <summary> Constructor with parameters. </summary>
         /// <param name="manufacturer"> Manufacturer of car. </param>
         /// <param name="model"> Model of car. </param>
-        /// <param name="issueCar"> Year of issue of car. </param>
+        /// <param name="issueYear"> Year of issue of car. </param>
         /// <param name="color"> Color of car. </param>
-        public Car(string manufacturer, string model, string issueCar, string color)
+        public Car(string manufacturer, string model, int issueYear, string color)
         {
             Manufacturer = manufacturer;
             Model = model;
-            IssueCar = issueCar;
+            IssueYear = issueYear;
             Color = color;
         }
 
@@ -25,7 +25,7 @@
         public string Model { get; }
 
         /// <summary> Year of issue of car. </summary>
-        public string IssueCar { get; }
+        public int IssueYear { get; }
 
         /// <summary> Color of car. </summary>
         public string Color { get; }
