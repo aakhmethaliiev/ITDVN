@@ -42,19 +42,25 @@ namespace EqualsBlock
         }
 
         /// <summary> Override GetHashCode. </summary>
-        /// <returns> Mult all sides. </returns>
         public override int GetHashCode()
         {
-            return _a*_b + _c*_d;
+            unchecked
+            {
+                var hashCode = _a;
+                hashCode = (hashCode * 397) ^ _b;
+                hashCode = (hashCode * 397) ^ _c;
+                hashCode = (hashCode * 397) ^ _d;
+                return hashCode;
+            }
         }
-
+        
         /// <summary>
         /// Override ToString for get info about block.
         /// </summary>
         /// <returns> Info about block. </returns>
         public override string ToString()
         {
-            return string.Format($"Block sides: {_a}, {_b}, {_c}, {_d}");
+            return string.Format($"Sides: {_a}, {_b}, {_c}, {_d}");
         }
     }
 }
