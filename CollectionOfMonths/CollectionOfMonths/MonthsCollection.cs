@@ -1,43 +1,39 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace CollectionOfMonths
 {
     /// <summary>
     /// Collection of months.
     /// </summary>
-    public class MonthsCollection: IEnumerable, IEnumerator, IDisposable
+    public class MonthsCollection<T>: IEnumerable<T>, IEnumerator<T>, IDisposable
     {
         /// <summary> Array of moths. </summary>
-        private readonly Month[] _months = new Month[12];
+        private readonly T[] _months = new T[12];
 
-        /// <summary> Default Constructor. </summary>
+        ///// <summary> Default Constructor. </summary>
         public MonthsCollection()
         {
-            _months[0] = new Month("January", 1, 31);
-            _months[1] = new Month("February", 2, 28);
-            _months[2] = new Month("March", 3, 31);
-            _months[3] = new Month("April", 4, 30);
-            _months[4] = new Month("May", 5, 31);
-            _months[5] = new Month("June", 6, 30);
-            _months[6] = new Month("July", 7, 31);
-            _months[7] = new Month("August", 8, 31);
-            _months[8] = new Month("September", 9, 30);
-            _months[9] = new Month("October", 10, 31);
-            _months[10] = new Month("November", 11, 30);
+            
         }
 
         /// <summary> Month by index. </summary>
         /// <param name="index"> Index of month. </param>
         /// <returns> Month by index. </returns>
-        public Month this[int index]
+        public T this[int index]
         {
             get => _months[index];
             set => _months[index] = value;
         }
 
         /// <summary> Position of indexator. </summary>
-        private int _position = -1;
+        int _position = -1;
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return this;
+        }
 
         /// <summary> Get enumerator. </summary>
         IEnumerator IEnumerable.GetEnumerator()
@@ -47,7 +43,7 @@ namespace CollectionOfMonths
 
         /// <summary> Move indexator to next position. </summary>
         /// <returns> Is it possible to move the indexer. </returns>
-        public bool MoveNext()
+        bool IEnumerator.MoveNext()
         {
             if (_position >= _months.Length - 1)
             {
@@ -59,16 +55,18 @@ namespace CollectionOfMonths
         }
 
         /// <summary> Reset position to default value. </summary>
-        public void Reset()
+        void IEnumerator.Reset()
         {
             _position = -1;
         }
 
+        public object Current { get; }
+
         /// <summary> Month by current position. </summary>
-        object IEnumerator.Current { get; }
+        T IEnumerator<T>.Current => _months[_position];
 
         /// <summary> Reset position. </summary>
-        public void Dispose()
+        void IDisposable.Dispose()
         {
             ((IEnumerator)this).Reset();
         }
