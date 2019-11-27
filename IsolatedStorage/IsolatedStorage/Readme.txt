@@ -1,0 +1,1 @@
+﻿+ Implement create file in isolated storage and add text to this file.
