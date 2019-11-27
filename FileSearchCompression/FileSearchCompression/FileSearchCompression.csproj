@@ -37,6 +37,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileServices\FileManager.cs" />
+    <Compile Include="FileServices\FileService.cs" />
+    <Compile Include="FileServices\GetDrivers.cs" />
+    <Compile Include="FileServices\IFileService.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

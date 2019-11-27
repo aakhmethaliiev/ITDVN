@@ -1,1 +1,1 @@
-﻿- Implement searching files and compression them.
+﻿+ Implement searching files and compression them.
