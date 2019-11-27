@@ -1,0 +1,1 @@
+﻿+ Create collection where you can add customers and the category of product.
