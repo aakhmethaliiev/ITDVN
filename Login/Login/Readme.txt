@@ -1,3 +1,3 @@
-﻿- Implement sigin in:
-	- Login only a - z;
-	- Password only \d, \W.
+﻿+ Implement sigin up:
+	+ Login only a - z;
+	+ Password only \d, \W.
