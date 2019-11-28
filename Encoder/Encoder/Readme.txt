@@ -1,1 +1,1 @@
-﻿- Implement replace all prepositions in file by "Gav!".
+﻿+ Implement replace all prepositions in file by "Gav!".
