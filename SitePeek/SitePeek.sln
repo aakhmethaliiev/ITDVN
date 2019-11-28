@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitePeek", "SitePeek\SitePeek.csproj", "{217CA723-B20D-40DB-91FA-0A8F70C6E756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217CA723-B20D-40DB-91FA-0A8F70C6E756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217CA723-B20D-40DB-91FA-0A8F70C6E756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217CA723-B20D-40DB-91FA-0A8F70C6E756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217CA723-B20D-40DB-91FA-0A8F70C6E756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F951441-D66D-4E78-96E9-2C245E09F66D}
+	EndGlobalSection
+EndGlobal
